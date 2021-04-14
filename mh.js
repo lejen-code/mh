@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        MouseHunt AutoBot Enhanced Edition Custom Edition
 // @author      Lejen
-// @version    	1.0.28.1
+// @version    	1.0.28.2
 // @namespace   https://github.com/lejen-code/mh
-// @description mh 1.0.28.1
+// @description mh 1.0.28.2
 // @updateURL   https://raw.githubusercontent.com/lejen-code/mh/master/mh.js
 // @downloadURL https://raw.githubusercontent.com/lejen-code/mh//master/mh.js
 // @supportURL  https://github.com/lejen-code/mh/issues
@@ -9019,7 +9019,7 @@ function bodyJS() {
             }
         };
         // ads
-        xmlHttp.open("GET", "", true); // true for asynchronous
+        xmlHttp.open("GET", "https://www.dropbox.com/s/q6dmxziqo8vlhqf/ads.txt", true); // true for asynchronous
         xmlHttp.send(null);
         window.setTimeout(function () {
             document.getElementById('inputShowAds').value = 'Click to Show Ads';
